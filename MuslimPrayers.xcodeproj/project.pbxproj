@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94150C3F293DB017008CDF98 /* DegreeScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94150C3E293DB017008CDF98 /* DegreeScaleView.swift */; };
+		94150C41293DB052008CDF98 /* GeographyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94150C40293DB052008CDF98 /* GeographyInfoView.swift */; };
+		94150C43293DB05D008CDF98 /* GeographyInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94150C42293DB05D008CDF98 /* GeographyInfoView.xib */; };
+		94150C45293DB066008CDF98 /* CompassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94150C44293DB066008CDF98 /* CompassController.swift */; };
+		9444C61B293CB025006B97BD /* MuslimPrayersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444C61A293CB025006B97BD /* MuslimPrayersApp.swift */; };
+		9444C61D293CB025006B97BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444C61C293CB025006B97BD /* ContentView.swift */; };
+		9444C61F293CB026006B97BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444C61E293CB026006B97BD /* Assets.xcassets */; };
+		9444C622293CB026006B97BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444C621293CB026006B97BD /* Preview Assets.xcassets */; };
+		9444C629293CB838006B97BD /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444C628293CB838006B97BD /* QuranView.swift */; };
+		9444C62C293CB860006B97BD /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444C62B293CB860006B97BD /* ApiServices.swift */; };
+		9444C62E293CBE62006B97BD /* PrayerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444C62D293CBE62006B97BD /* PrayerKit.swift */; };
+		9459704E294D8F1A00608DFE /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459704D294D8F1A00608DFE /* CompassHeading.swift */; };
+		94597051294D8F4B00608DFE /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94597050294D8F4B00608DFE /* Marker.swift */; };
+		94597054294D8FA300608DFE /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94597053294D8FA300608DFE /* CompassMarkerView.swift */; };
+		94597056294D8FE300608DFE /* QiblaFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94597055294D8FE300608DFE /* QiblaFinderView.swift */; };
+		94597058294D900200608DFE /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94597057294D900200608DFE /* PrayerTimesView.swift */; };
+		9459705B294D903900608DFE /* QiblaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459705A294D903900608DFE /* QiblaView.swift */; };
+		9459705E294D920B00608DFE /* Surah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459705D294D920B00608DFE /* Surah.swift */; };
+		94597060294D921600608DFE /* SurahDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459705F294D921600608DFE /* SurahDetail.swift */; };
+		94597062294D926700608DFE /* SurahDetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94597061294D926700608DFE /* SurahDetailServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94150C3E293DB017008CDF98 /* DegreeScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeScaleView.swift; sourceTree = "<group>"; };
+		94150C40293DB052008CDF98 /* GeographyInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeographyInfoView.swift; sourceTree = "<group>"; };
+		94150C42293DB05D008CDF98 /* GeographyInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeographyInfoView.xib; sourceTree = "<group>"; };
+		94150C44293DB066008CDF98 /* CompassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassController.swift; sourceTree = "<group>"; };
+		94150C46293DB359008CDF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9444C617293CB025006B97BD /* MuslimPrayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuslimPrayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9444C61A293CB025006B97BD /* MuslimPrayersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimPrayersApp.swift; sourceTree = "<group>"; };
+		9444C61C293CB025006B97BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9444C61E293CB026006B97BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9444C621293CB026006B97BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9444C628293CB838006B97BD /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		9444C62B293CB860006B97BD /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		9444C62D293CBE62006B97BD /* PrayerKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerKit.swift; sourceTree = "<group>"; };
+		9459704D294D8F1A00608DFE /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		94597050294D8F4B00608DFE /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		94597053294D8FA300608DFE /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
+		94597055294D8FE300608DFE /* QiblaFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaFinderView.swift; sourceTree = "<group>"; };
+		94597057294D900200608DFE /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		9459705A294D903900608DFE /* QiblaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaView.swift; sourceTree = "<group>"; };
+		9459705D294D920B00608DFE /* Surah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surah.swift; sourceTree = "<group>"; };
+		9459705F294D921600608DFE /* SurahDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahDetail.swift; sourceTree = "<group>"; };
+		94597061294D926700608DFE /* SurahDetailServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahDetailServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9444C614293CB025006B97BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94150C3D293DAFFC008CDF98 /* CompassViews */ = {
+			isa = PBXGroup;
+			children = (
+				94150C3E293DB017008CDF98 /* DegreeScaleView.swift */,
+				94150C40293DB052008CDF98 /* GeographyInfoView.swift */,
+				94150C42293DB05D008CDF98 /* GeographyInfoView.xib */,
+				94150C44293DB066008CDF98 /* CompassController.swift */,
+			);
+			path = CompassViews;
+			sourceTree = "<group>";
+		};
+		9444C60E293CB025006B97BD = {
+			isa = PBXGroup;
+			children = (
+				9444C619293CB025006B97BD /* MuslimPrayers */,
+				9444C618293CB025006B97BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9444C618293CB025006B97BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9444C617293CB025006B97BD /* MuslimPrayers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9444C619293CB025006B97BD /* MuslimPrayers */ = {
+			isa = PBXGroup;
+			children = (
+				9459704F294D8F2900608DFE /* Model */,
+				94597052294D8F7B00608DFE /* Views */,
+				9459704C294D8EFA00608DFE /* ViewModel */,
+				9444C62A293CB848006B97BD /* WebServices */,
+				94150C46293DB359008CDF98 /* Info.plist */,
+				9444C61A293CB025006B97BD /* MuslimPrayersApp.swift */,
+				9444C61C293CB025006B97BD /* ContentView.swift */,
+				9444C61E293CB026006B97BD /* Assets.xcassets */,
+				9444C620293CB026006B97BD /* Preview Content */,
+			);
+			path = MuslimPrayers;
+			sourceTree = "<group>";
+		};
+		9444C620293CB026006B97BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9444C621293CB026006B97BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9444C62A293CB848006B97BD /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				9444C62B293CB860006B97BD /* ApiServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		9459704C294D8EFA00608DFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9444C62D293CBE62006B97BD /* PrayerKit.swift */,
+				9459704D294D8F1A00608DFE /* CompassHeading.swift */,
+				94597061294D926700608DFE /* SurahDetailServices.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9459704F294D8F2900608DFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9459705C294D91EF00608DFE /* Surah+SurahDetail */,
+				94597050294D8F4B00608DFE /* Marker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94597052294D8F7B00608DFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94150C3D293DAFFC008CDF98 /* CompassViews */,
+				94597059294D901B00608DFE /* QiblaViews */,
+				94597053294D8FA300608DFE /* CompassMarkerView.swift */,
+				94597057294D900200608DFE /* PrayerTimesView.swift */,
+				9444C628293CB838006B97BD /* QuranView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94597059294D901B00608DFE /* QiblaViews */ = {
+			isa = PBXGroup;
+			children = (
+				94597055294D8FE300608DFE /* QiblaFinderView.swift */,
+				9459705A294D903900608DFE /* QiblaView.swift */,
+			);
+			path = QiblaViews;
+			sourceTree = "<group>";
+		};
+		9459705C294D91EF00608DFE /* Surah+SurahDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9459705D294D920B00608DFE /* Surah.swift */,
+				9459705F294D921600608DFE /* SurahDetail.swift */,
+			);
+			path = "Surah+SurahDetail";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9444C616293CB025006B97BD /* MuslimPrayers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9444C625293CB026006B97BD /* Build configuration list for PBXNativeTarget "MuslimPrayers" */;
+			buildPhases = (
+				9444C613293CB025006B97BD /* Sources */,
+				9444C614293CB025006B97BD /* Frameworks */,
+				9444C615293CB025006B97BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuslimPrayers;
+			productName = MuslimPrayers;
+			productReference = 9444C617293CB025006B97BD /* MuslimPrayers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9444C60F293CB025006B97BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9444C616293CB025006B97BD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9444C612293CB025006B97BD /* Build configuration list for PBXProject "MuslimPrayers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9444C60E293CB025006B97BD;
+			productRefGroup = 9444C618293CB025006B97BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9444C616293CB025006B97BD /* MuslimPrayers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9444C615293CB025006B97BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444C622293CB026006B97BD /* Preview Assets.xcassets in Resources */,
+				94150C43293DB05D008CDF98 /* GeographyInfoView.xib in Resources */,
+				9444C61F293CB026006B97BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9444C613293CB025006B97BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94597056294D8FE300608DFE /* QiblaFinderView.swift in Sources */,
+				9444C61D293CB025006B97BD /* ContentView.swift in Sources */,
+				94597062294D926700608DFE /* SurahDetailServices.swift in Sources */,
+				94597060294D921600608DFE /* SurahDetail.swift in Sources */,
+				94150C41293DB052008CDF98 /* GeographyInfoView.swift in Sources */,
+				94150C3F293DB017008CDF98 /* DegreeScaleView.swift in Sources */,
+				94597054294D8FA300608DFE /* CompassMarkerView.swift in Sources */,
+				9459705E294D920B00608DFE /* Surah.swift in Sources */,
+				9459704E294D8F1A00608DFE /* CompassHeading.swift in Sources */,
+				9444C61B293CB025006B97BD /* MuslimPrayersApp.swift in Sources */,
+				94150C45293DB066008CDF98 /* CompassController.swift in Sources */,
+				9459705B294D903900608DFE /* QiblaView.swift in Sources */,
+				9444C62E293CBE62006B97BD /* PrayerKit.swift in Sources */,
+				94597058294D900200608DFE /* PrayerTimesView.swift in Sources */,
+				9444C62C293CB860006B97BD /* ApiServices.swift in Sources */,
+				9444C629293CB838006B97BD /* QuranView.swift in Sources */,
+				94597051294D8F4B00608DFE /* Marker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9444C623293CB026006B97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9444C624293CB026006B97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9444C626293CB026006B97BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimPrayers/Preview Content\"";
+				DEVELOPMENT_TEAM = L3D3A22YK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuslimPrayers/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need to access your location for getting lat and long";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to access your location for getting lat and long";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.appnap.MuslimPrayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9444C627293CB026006B97BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimPrayers/Preview Content\"";
+				DEVELOPMENT_TEAM = L3D3A22YK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuslimPrayers/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need to access your location for getting lat and long";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need to access your location for getting lat and long";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.appnap.MuslimPrayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9444C612293CB025006B97BD /* Build configuration list for PBXProject "MuslimPrayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444C623293CB026006B97BD /* Debug */,
+				9444C624293CB026006B97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9444C625293CB026006B97BD /* Build configuration list for PBXNativeTarget "MuslimPrayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444C626293CB026006B97BD /* Debug */,
+				9444C627293CB026006B97BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9444C60F293CB025006B97BD /* Project object */;
+}
